@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Pricing Table</h1>
 
-## Getting Started
+## 💻 Sobre o desafio
 
-First, run the development server:
+Neste desafio você vai desenvolver uma página com uma tabela com as opções de preços/planos do produto/serviço.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Layout
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://ik.imagekit.io/gczsuhmv3/pricingtable_b2_DR-ThQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643755420215" alt="layout"/>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Você pode visualizar o template do projeto clicando [neste link](https://www.figma.com/file/sSq019RDznSm3eyZoo3OHc/DD-Pricing-Table/duplicate).
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🚀 **Techs**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- HTML
+- CSS
 
-## Learn More
+## 💡**Como começar?**
 
-To learn more about Next.js, take a look at the following resources:
+1 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2 - Leia com atenção todas as instruções do desafio.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3 - Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
 
-## Deploy on Vercel
+4 - Compartilhe seu resultado ou tire suas dúvidas na nossa [**comunidade aberta**](https://discord.gg/bacwY2gDCF)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✅ **Requisitos**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Neste desafio você vai construir uma página para mostrar as opções de planos disponíveis para assinatura*.* Caso você ainda não tenha feito os cursos do Discover ou queira fazer uma revisão, segue abaixo uma lista dos cursos que podem te ajudar a resolver este desafio.
+
+- [O guia estelar de HTML](https://app.rocketseat.com.br/node/o-guia-estelar-de-html)
+- [O guia estelar de CSS](https://app.rocketseat.com.br/node/o-guia-estelar-de-css)
+- [Posicionando foguetes](https://app.rocketseat.com.br/node/posicionando-foguetes)
+- [Formulários de outro planeta](https://app.rocketseat.com.br/node/formularios-de-outro-planeta)
+- [Alinhando os planetas](https://app.rocketseat.com.br/node/flexbox)
+- [App bonito, até nos textos](https://app.rocketseat.com.br/node/flexbox)
+
+**Requisitos para o desafio:**
+
+- Seguir o layout do Figma.
+
+**_Se desafie também:_**
+
+- Deixando o Layout responsivo
