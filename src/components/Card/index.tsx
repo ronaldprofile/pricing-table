@@ -1,8 +1,8 @@
+import Image from "next/image";
 import clsx from "clsx";
 import cx from "classnames";
 import checkIcon from "../../assets/check.svg";
 import { Button } from "../Button";
-import Image from "next/image";
 
 interface CardProps {
   planName: string;
@@ -20,10 +20,23 @@ export function Card({
   className
 }: CardProps) {
   return (
-    <div className={clsx("w-[355px]  rounded-lg shadow-md", className)}>
+    <div
+      className={clsx(
+        "w-[355px] rounded-lg shadow-md hover:shadow-xl",
+        className
+      )}
+    >
       <div className={cx(isPopular ? "bg-pricingTable-yellow" : "bg-white")}>
         <header className="px-[30px] py-[25px]  flex items-center justify-between">
-          <span className="text-pricingTable-blue font-semibold text-[20px]">
+          <span
+            className={cx(
+              `font-semibold text-[20px] ${
+                isPopular
+                  ? "text-pricingTable-blue"
+                  : "text-pricingTable-priceColor"
+              }`
+            )}
+          >
             {planName}
           </span>
 
@@ -54,22 +67,23 @@ export function Card({
 
         <div className="mt-5 mb-[70px]">
           <ul className="flex flex-col gap-4">
-            <li className="flex items-center gap-4 text-pricingTable-gray font-semibold ">
+            {/* reusable class, made using @apply. */}
+            <li className="itemListCard">
               <Image src={checkIcon} alt="check icon" /> Lorem ipsum dolor sit
               amet
             </li>
-            <li className="flex items-center gap-4 text-pricingTable-gray font-semibold ">
+            <li className="itemListCard">
               <Image src={checkIcon} alt="check icon" /> Lorem ipsum dolor sit
               amet
             </li>
-            <li className="flex items-center gap-4 text-pricingTable-gray font-semibold ">
+            <li className="itemListCard">
               <Image src={checkIcon} alt="check icon" /> Lorem ipsum dolor sit
               amet
             </li>
           </ul>
         </div>
 
-        <Button>Assinar</Button>
+        <Button isOutlined={isPopular}>Assinar</Button>
       </div>
     </div>
   );

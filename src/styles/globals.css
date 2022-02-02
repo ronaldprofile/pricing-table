@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .itemListCard {
+    @apply flex items-center gap-4 text-pricingTable-gray font-semibold;
+  }
+}
